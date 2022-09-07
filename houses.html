@@ -29,9 +29,93 @@
           <button class="btn btn-outline-success" type="submit">Logout</button>
         </form>
       </div>
+    </nav>
+    <!-- navigation to filter options -->
     <nav class="houses-nav">
       <!-- form: location, rooms, price, order, house name -->
       <!-- button3: search -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"
+                    >icon</label
+                  >
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Any Location</option>
+                    <option value="Koh Phangan">Koh Phangan</option>
+                    <option value="Koh Samui">Koh Samui</option>
+                    <option value="Bali">Bali</option>
+                  </select>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"
+                    >icon</label
+                  >
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Any rooms</option>
+                    <option value="1">1 room</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                  </select>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-default"
+                    >icon</span
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default"
+                  />
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"
+                    >icon</label
+                  >
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option value="1" selected>Price (low to high)</option>
+                    <option value="2">Price (high to low)</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="House name..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
     </nav>
     <!-- section with cards -->
     <section class="houses-cards">
