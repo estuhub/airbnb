@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/styles.css" />
     <meta charset="utf-8" />
-    <title>House Name</title>
+    <title>House Create</title>
   </head>
   <body>
     <!-- header for pages when logged in -->
@@ -45,7 +45,7 @@
       <!-- description -->
       <div class="mb-3">
         <label class="form-label">Description</label>
-        <input type="text" class="form-control" />
+        <textarea class="form-control" rows="7"></textarea>
       </div>
       <!-- number of rooms -->
       <div class="mb-3">
@@ -55,11 +55,16 @@
       <!-- location -->
       <div class="mb-3">
         <label class="form-label">Location</label>
-        <input type="text" class="form-control" />
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
       </div>
       <!-- price -->
-      <div class="mb-3">
-        <label class="form-label">Price (per night)</label>
+      <label class="form-label">Price (per night)</label>
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
         <input type="number" class="form-control" />
       </div>
       <!-- photos -->
@@ -93,6 +98,8 @@
           <input type="url" class="form-control" placeholder="https://..." />
         </div>
       </div>
+      <!-- button -->
+      <div><button class="btn btn-success">Search</button></div>
     </section>
   </body>
 </html>
