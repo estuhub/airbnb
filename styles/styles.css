@@ -15,13 +15,18 @@ button > img {
 
 /* house info */
 /* login */
-/* .body {
+.login-body {
   background-image: url(https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-  width: 100vw;
-} */
+  margin: 0;
+}
+
+.login-body > div {
+  height: 100vh;
+}
 
 /* profile */
 /* error */
