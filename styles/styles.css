@@ -9,6 +9,10 @@ button > img {
   width: 15px;
 }
 
+.house img {
+  width: 100%;
+}
+
 /* house info */
 /* login */
 /* .body {
