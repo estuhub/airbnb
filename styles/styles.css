@@ -15,7 +15,8 @@ button > img {
 
 /* house info */
 /* login */
-.login-body {
+.login-body,
+.signup-body {
   background-image: url(https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +26,10 @@ button > img {
 }
 
 .login-body > div {
+  height: 100vh;
+}
+
+.signup-body > div {
   height: 100vh;
 }
 
