@@ -1,19 +1,22 @@
 /* GENERAL */
-/* houses */
-.logo {
-  width: 100px;
-}
-
+/* profile picture */
 a.btn > img {
   border-radius: 100%;
   width: 20px;
 }
 
+.logo {
+  width: 100px;
+}
+
+/* houses */
+
+/* house info */
 .house img {
+  height: 100%;
   width: 100%;
 }
 
-/* house info */
 /* login */
 .login-body,
 .signup-body {
