@@ -45,7 +45,7 @@
       </div>
     </nav>
     <!-- section with house pictures -->
-    <div class="border-top border-bottom border-grey house">
+    <div class="border-top border-bottom border-grey house mb-5">
       <div class="row">
         <!-- col1: big pic -->
         <div class="col">
@@ -121,15 +121,24 @@
         <div class="col-8">
           <div class="row">
             <!-- info area -->
-            <div class="col-10">
+            <div class="col-10 mb-4">
               <!-- name of the house, location and room number-->
               <!-- title -->
-              <p class="fs-2">House name</p>
+              <p class="fs-2 mb-0">Luxury Villa in Chaweng</p>
               <!-- location and room numbers -->
-              <p><small>Koh Samui / 4 Rooms</small></p>
+              <small class="text-muted">
+                <i class="fa-solid fa-location-dot text-success"></i>
+                Koh Samui • 4 Rooms
+              </small>
               <!-- col1: pic & col2: info -->
-              <div class="row pb-3">
-                <div class="col-1">[]</div>
+              <div class="row py-4">
+                <div class="col-1 host">
+                  <img
+                    class="me-2"
+                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    alt="profile-picture"
+                  />
+                </div>
                 <div class="col-11">
                   <small class="text-muted">Hosted by</small>
                   <div><small>Ester Lin</small></div>
@@ -150,16 +159,26 @@
             <!-- write review area -->
             <div class="col-10 mb-4">
               <!-- title -->
-              <p class="fs-3">2 Reviews</p>
-              <p class="fs-6">Leave a review</p>
-              <!-- text area -->
-              <textarea class="form-control" rows="4"></textarea>
-              <!-- review icons and button -->
-              <div class="input-group mb-3">
-                <span class="input-group-text">Y</span>
-                <span class="input-group-text">N</span>
-              </div>
-              <button class="btn btn-success">Search</button>
+              <p class="fs-3 mb-0">2 Reviews</p>
+              <p class="fs-6 mb-0">Leave a review</p>
+              <form>
+                <!-- text area -->
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  name="review"
+                ></textarea>
+                <!-- review icons and button -->
+                <div class="my-2">
+                  <div class="btn btn-outline-success">
+                    <i class="fa-solid fa-thumbs-up text-success"></i>
+                  </div>
+                  <div class="btn btn-outline-danger">
+                    <i class="fa-solid fa-thumbs-down text-danger"></i>
+                  </div>
+                </div>
+                <button class="btn btn-success">Submit</button>
+              </form>
             </div>
             <!-- comments area -->
             <!-- comment 1 -->

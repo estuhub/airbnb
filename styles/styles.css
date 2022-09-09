@@ -17,6 +17,11 @@ a.btn > img {
   width: 100%;
 }
 
+.host > img {
+  border-radius: 100%;
+  width: 35px;
+}
+
 /* login */
 .login-body,
 .signup-body {
