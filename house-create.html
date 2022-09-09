@@ -44,74 +44,135 @@
         </div>
       </div>
     </nav>
-    <!-- title -->
     <section class="container">
+      <!-- title -->
       <div>
         <p class="h2">List a House</p>
       </div>
-      <!-- short title -->
-      <div class="mb-3">
-        <label class="form-label">Short Title</label>
-        <input type="text" class="form-control" />
-      </div>
-      <!-- description -->
-      <div class="mb-3">
-        <label class="form-label">Description</label>
-        <textarea class="form-control" rows="7"></textarea>
-      </div>
-      <!-- number of rooms -->
-      <div class="mb-3">
-        <label class="form-label">Number of Rooms</label>
-        <input type="number" class="form-control" />
-      </div>
-      <!-- location -->
-      <div class="mb-3">
-        <label class="form-label">Location</label>
-        <select class="form-control">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-        </select>
-      </div>
-      <!-- price -->
-      <label class="form-label">Price (per night)</label>
-      <div class="input-group mb-3">
-        <span class="input-group-text">$</span>
-        <input type="number" class="form-control" />
-      </div>
-      <!-- photos -->
-      <div>
-        <label class="form-label">Add Photos (up to 9)</label>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+      <!-- form -->
+      <form>
+        <!-- short title -->
+        <div class="mb-3">
+          <label class="form-label m-0">Short Title</label>
+          <input type="text" class="form-control name="title"" />
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- description -->
+        <div class="mb-3">
+          <label class="form-label m-0">Description</label>
+          <textarea class="form-control" rows="7" name="description"></textarea>
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- number of rooms -->
+        <div class="mb-3">
+          <label class="form-label m-0">Number of Rooms</label>
+          <input type="number" class="form-control" name="rooms" />
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- location -->
+        <div class="mb-3">
+          <label class="form-label m-0">Location</label>
+          <select class="form-control" name="location">
+            <option>Koh Phangan</option>
+            <option>Koh Samui</option>
+            <option>Bali</option>
+          </select>
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- price -->
+        <label class="form-label m-0">Price (per night)</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text">
+            <i class="fa-solid fa-dollar-sign"></i>
+          </span>
+          <input type="number" class="form-control" name="price" />
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- photos -->
+        <div class="mb-3">
+          <label class="form-label m-0">Add Photos (up to 9)</label>
+          <!-- photo 1 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 2 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 3 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 4 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 5 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 6 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 7 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 8 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
+          <!-- photo 9 -->
+          <div class="mb-1">
+            <input
+              type="url"
+              class="form-control"
+              placeholder="https://..."
+              name="photo"
+            />
+          </div>
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
+        <!-- button -->
+        <div>
+          <button class="btn btn-success">Submit</button>
         </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
-        </div>
-        <div class="mb-1">
-          <input type="url" class="form-control" placeholder="https://..." />
-        </div>
-      </div>
-      <!-- button -->
-      <div><button class="btn btn-success">Search</button></div>
+      </form>
     </section>
   </body>
 </html>
