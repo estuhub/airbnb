@@ -4,9 +4,9 @@
   width: 100px;
 }
 
-button > img {
+a.btn > img {
   border-radius: 100%;
-  width: 15px;
+  width: 20px;
 }
 
 .house img {

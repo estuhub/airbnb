@@ -7,6 +7,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/522f3a72b4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/styles.css" />
     <meta charset="utf-8" />
     <title>House Edit</title>
@@ -14,26 +18,31 @@
   <body>
     <!-- header for pages when logged in -->
     <nav class="container p-2">
-      <!-- col1: img logo + col2: button1 and button2 -->
+      <!-- col1: img logo + col2: link1 and link2 -->
       <div class="row">
-        <!-- col1: img logo -->
+        <!-- col1: img logo with link -->
         <div class="col">
-          <img class="logo" src="images/logo-airbnb.png" alt="airbnb-logo" />
+          <a href="#"
+            ><img class="logo" src="images/logo-airbnb.png" alt="airbnb-logo"
+          /></a>
         </div>
-        <!-- col2: button1 and button2 -->
+        <!-- col2: link1 and link2 -->
         <div class="col text-end">
-          <button class="btn btn-outline-secondary">
+          <!-- link1: profile -->
+          <a class="btn btn-outline-secondary">
             <img
+              class="me-2"
               src="https://randomuser.me/api/portraits/men/11.jpg"
               alt="profile-picture"
             />Ester Lin
-          </button>
-          <button class="btn btn-outline-secondary">Logout</button>
+          </a>
+          <!-- link2: logout -->
+          <a class="btn btn-outline-secondary">Logout</a>
         </div>
       </div>
     </nav>
+    <!-- title -->
     <section class="container">
-      <!-- title -->
       <div>
         <p class="h2">Edit House</p>
       </div>
